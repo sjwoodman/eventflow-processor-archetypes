@@ -23,6 +23,7 @@
   </licenses>
 
   <modules>
+    <module>source</module>
     <module>sink</module>
   </modules>
 
