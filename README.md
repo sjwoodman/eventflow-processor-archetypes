@@ -1,6 +1,6 @@
 # Stream Processor Archetypes
 
-For build stream processors that communicate with eachother, using CloudEvents, this repository contains a collection of archetypes for a quick developer experience.
+For building stream processors that communicate with eachother, using CloudEvents, this repository contains a collection of archetypes for a quick developer experience.
 
 ## Supported Processors Archetypes
 
