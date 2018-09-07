@@ -20,8 +20,6 @@ Watch a short demo of how to use the Processor Archetypes on YouTube:
 Watch a short demo of how to use the Processor Archetypes on YouTube:
 
 [![Using CloudEvent Flow Archetypes](https://img.youtube.com/vi/vpNsNVlTJrg/0.jpg)](https://www.youtube.com/watch?v=vpNsNVlTJrg)
-</p>
-https://www.youtube.com/watch?v=vpNsNVlTJrg
 
 
 ## Usage
