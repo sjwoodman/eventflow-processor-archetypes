@@ -7,6 +7,14 @@ For building stream processors that communicate with eachother, using CloudEvent
 * `source`: Sample project that generates data and submits it via CloudEvents to an injected _target_. 
 * `sink`: Sample consumer that receives a CloudEvent from a configured data stream topic.
 
+## Demo
+
+<p align="center">
+[![Using CloudEvent Flow Archetypes](https://img.youtube.com/vi/vpNsNVlTJrg/0.jpg)](https://www.youtube.com/watch?v=vpNsNVlTJrg)
+</p>
+https://www.youtube.com/watch?v=vpNsNVlTJrg
+
+
 ## Usage
 
 In order to run the archetype, make sure that the following repo configured in your `settings.xml` file:
