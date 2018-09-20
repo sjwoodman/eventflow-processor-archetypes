@@ -30,6 +30,7 @@
   <modules>
     <module>source</module>
     <module>sink</module>
+    <module>processor</module>
   </modules>
 
 </project>

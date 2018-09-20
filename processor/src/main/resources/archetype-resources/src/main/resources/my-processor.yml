@@ -1,0 +1,16 @@
+apiVersion: "streamzi.io/v1"
+kind: Processor
+metadata:
+  name: ${artifactId}
+spec:
+  displayName: "Data Filter Processor"
+  description: "Filters data based on consumed value"
+  imageName: "${dhOrg}/${artifactId}"
+  inputs:
+    - "input-data"
+  outputs:
+    - "output-data"
+    - "rejected-data"
+  settings: {
+    "threshold": 0.3
+  }

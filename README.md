@@ -6,6 +6,7 @@ For building stream processors that communicate with eachother, using CloudEvent
 
 * `source`: Sample project that generates data and submits it via CloudEvents to an injected _target_. 
 * `sink`: Sample consumer that receives a CloudEvent from a configured data stream topic.
+* `processor`: Sample data processor that reveices CloudEvents and submits them to a different _target_.
 
 ## Demo
 
@@ -75,5 +76,27 @@ This generates a new maven project inside the `my-sink` folder. Make yourself fa
 
 ```
 oc create -f ./src/main/resources/my-sink.yml 
+```
+The new _Stream Processor_ is now available for usage in the Event Flow Editor.
+
+### Processor Archetype
+
+Building an application that receives and sends CloudEvent data from and to a stream processing pipeline, by using the following archetype:
+
+
+```
+ mvn archetype:generate \
+    -DarchetypeGroupId=io.streamzi.archetypes \
+    -DarchetypeArtifactId=streamzi-processor-archetype \
+    -DarchetypeVersion=0.0.2-SNAPSHOT \
+    -DgroupId=com.mycorp \
+    -DartifactId=my-proc \
+    -DdhOrg=myorg \
+    -Dversion=1.0-SNAPSHOT
+```
+This generates a new maven project inside the `my-proc` folder. Make yourself familiar with the Java API, used in the `src/main/java` folder. Build the project running `mvn clean install`. This will build a _FatJar_ and a _Linux Container_, containing the _FatJar_ application. Now it's time to register the newly created _Stream Processor_ application, by invoking:
+
+```
+oc create -f ./src/main/resources/my-processor.yml 
 ```
 The new _Stream Processor_ is now available for usage in the Event Flow Editor.
