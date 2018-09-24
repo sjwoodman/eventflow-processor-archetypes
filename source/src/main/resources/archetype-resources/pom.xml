@@ -11,7 +11,7 @@
     <name>My random-data processor</name>
 
     <properties>
-        <cef.version>0.0.3</cef.version>
+        <eventflow.version>0.0.4</eventflow.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -19,9 +19,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.streamzi.cloudevent-flow</groupId>
-            <artifactId>container</artifactId>
-            <version>${cef.version}</version>
+            <groupId>io.streamzi.eventflow</groupId>
+            <artifactId>runtime</artifactId>
+            <version>${eventflow.version}</version>
         </dependency>
     </dependencies>
 
@@ -42,7 +42,7 @@
                             <transformers>
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>io.streamzi.openshift.dataflow.container.ProcessorRunner</mainClass>
+                                    <mainClass>io.streamzi.eventflow.runtime.ProcessorRunner</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>

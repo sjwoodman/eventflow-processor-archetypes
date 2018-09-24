@@ -1,11 +1,12 @@
 package ${package};
 
 import io.streamzi.cloudevents.CloudEvent;
-import io.streamzi.openshift.dataflow.annotations.CloudEventComponent;
-import io.streamzi.openshift.dataflow.annotations.CloudEventConsumer;
-import io.streamzi.openshift.dataflow.annotations.CloudEventProducer;
-import io.streamzi.openshift.dataflow.annotations.CloudEventProducerTarget;
-import io.streamzi.openshift.dataflow.container.config.EnvironmentResolver;
+import io.streamzi.eventflow.annotations.CloudEventComponent;
+import io.streamzi.eventflow.annotations.CloudEventConsumer;
+import io.streamzi.eventflow.annotations.CloudEventProducer;
+import io.streamzi.eventflow.annotations.CloudEventProducerTarget;
+import io.streamzi.eventflow.utils.EnvironmentResolver;
+
 import java.util.HashMap;
 import java.util.Map;
 
