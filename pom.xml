@@ -10,7 +10,7 @@
 
   <groupId>io.streamzi.eventflow.archetypes</groupId>
   <artifactId>eventflow-archetypes-parent</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.2</version>
   <name>Archetypes Parent</name>
   <packaging>pom</packaging>
 
@@ -18,7 +18,7 @@
     <connection>scm:git:git@github.com:project-streamzi/eventflow-processor-archetypes.git</connection>
     <developerConnection>scm:git:git@github.com:project-streamzi/eventflow-processor-archetypes.git</developerConnection>
     <url>https://github.com/project-streamzi/eventflow-processor-archetypes</url>
-    <tag>HEAD</tag>
+    <tag>eventflow-archetypes-parent-0.0.2</tag>
   </scm>
 
   <licenses>
