@@ -39,8 +39,8 @@ Building an application that sends CloudEvent data to a stream processing pipeli
 
 ```
 mvn archetype:generate \
-    -DarchetypeGroupId=io.streamzi.archetypes \
-    -DarchetypeArtifactId=streamzi-source-archetype \
+    -DarchetypeGroupId=io.streamzi.eventflow.archetypes \
+    -DarchetypeArtifactId=eventflow-source-archetype \
     -DarchetypeVersion=0.0.1 \
     -DgroupId=com.mycorp \
     -DartifactId=my-src \
@@ -64,8 +64,8 @@ Building an application that receives CloudEvent data from a stream processing p
 
 ```
  mvn archetype:generate \
-    -DarchetypeGroupId=io.streamzi.archetypes \
-    -DarchetypeArtifactId=streamzi-sink-archetype \
+    -DarchetypeGroupId=io.streamzi.eventflow.archetypes \
+    -DarchetypeArtifactId=eventflow-sink-archetype \
     -DarchetypeVersion=0.0.1 \
     -DgroupId=com.mycorp \
     -DartifactId=my-sink \
@@ -86,8 +86,8 @@ Building an application that receives and sends CloudEvent data from and to a st
 
 ```
  mvn archetype:generate \
-    -DarchetypeGroupId=io.streamzi.archetypes \
-    -DarchetypeArtifactId=streamzi-processor-archetype \
+    -DarchetypeGroupId=io.streamzi.eventflow.archetypes \
+    -DarchetypeArtifactId=eventflow-processor-archetype \
     -DarchetypeVersion=0.0.2-SNAPSHOT \
     -DgroupId=com.mycorp \
     -DartifactId=my-proc \

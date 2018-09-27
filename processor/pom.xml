@@ -3,12 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.streamzi.archetypes</groupId>
-    <artifactId>streamzi-archetypes-parent</artifactId>
+    <groupId>io.streamzi.eventflow.archetypes</groupId>
+    <artifactId>eventflow-archetypes-parent</artifactId>
     <version>0.0.2-SNAPSHOT</version>
   </parent>
 
-  <artifactId>streamzi-processor-archetype</artifactId>
+  <artifactId>eventflow-processor-archetype</artifactId>
   <name>Archetype: Streamzi Processor</name>
   <packaging>maven-archetype</packaging>
 
